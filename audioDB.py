@@ -2,6 +2,7 @@
 
 import numpy as np
 import pandas as pd
+import time
 
 
 class AudioDB:
@@ -39,6 +40,12 @@ class AudioDB:
             self.reColDic[i] = self.df.columns[i]
 
 
+    def savCsv(self):
+        times = str(time.localtime().tm_year) + '_' + str(time.localtime().tm_mon) + '_' + str(time.localtime().tm_mday) + '_'+str(time.localtime().tm_hour) +'_'+ str(time.localtime().tm_min)
+        filename = 'result' + times +'.csv'
+        self.df.to_csv(filename)
+
+
 
 
 
@@ -52,6 +59,8 @@ if __name__ == '__main__':
     t.setValue(0,'question','三个火念什么')
 
     print t.getValue(0, 'question')
+    t.savCsv()
+
 
 
 
