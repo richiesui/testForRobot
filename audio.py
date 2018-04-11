@@ -183,8 +183,13 @@ class Audio:
         print("播放音乐"+filename)
 
         pygame.mixer.music.load(filename)
+        #播放载入的音乐。该函数立即返回，音乐播放在后台进行。所以加sleep让音乐播放完毕后，再继续后续操作
         pygame.mixer.music.play()
-        time.sleep(3)
+        while True:
+            #判断是否在播放音乐,返回1为正在播放
+            a = pygame.mixer.music.get_busy()
+            if a != 1:
+                break
 
 
 
