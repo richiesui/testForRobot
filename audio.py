@@ -113,10 +113,13 @@ class Audio:
         #采集语音
         myBuff = []
         count = 0
-        while count < self.TIME *2:
+
+        #目前不会写静音检测，故先写死录音时间
+        while count < self.TIME :
             stringAudioData = stream.read(self.NUM_SAMPLES)
             myBuff.append(stringAudioData)
             count+=1
+            print '采集音频中.'
 
         self.saveWaveFile(filename,myBuff)
         stream.close()
@@ -143,6 +146,8 @@ class Audio:
         """
         # 设置音频属性，根据百度的要求，采样率必须为8000，压缩格式支持pcm（不压缩）、wav、opus、speex、amr
         WAVE_TYPE = "wav"
+
+
 
         # 打开音频文件，并进行编码
         f = open(filename, "r")
@@ -219,10 +224,13 @@ if __name__ == '__main__':
 
     #播放问题语音
     audio.playAudio(filename)
+
+    #采集音频，生成wav文件
+    audio.record(str(qNo) + '.wav')
+
     #
-    #
-    # #生成录音识别后的文字
-    # tNo = audio.audioToText(qNo + '.wav')
+    #生成录音识别后的文字
+    tNo = audio.audioToText(str(qNo) + '.wav')
     #
     # #获取比对数据
     # stan = '三个日念什么'
