@@ -177,6 +177,11 @@ class Audio:
         else:
             print "错误"
 
+
+        #关闭文件,并删除
+        f.close()
+        os.remove(filename)
+
         return word
 
 

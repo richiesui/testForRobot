@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="753caa57-4e70-43ff-bc81-322d6429fe59" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/questions/serial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/audio.py" beforeDir="false" afterPath="$PROJECT_DIR$/audio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/4.mp3" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="audio.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="audio.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="228" column="4" lean-forward="true" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
+            <state relative-caret-position="458">
+              <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
               <folding>
                 <element signature="e#25#41#0" expanded="true" />
               </folding>
@@ -35,15 +33,6 @@
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serial.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/questions/serial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -64,8 +53,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/audioDB.py" />
-        <option value="$PROJECT_DIR$/audio.py" />
         <option value="$PROJECT_DIR$/questions/serial.py" />
+        <option value="$PROJECT_DIR$/audio.py" />
       </list>
     </option>
   </component>
@@ -204,13 +193,10 @@
     <entry file="file://$PROJECT_DIR$/.csv1523463851.83.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/audio.py">
+    <entry file="file://$PROJECT_DIR$/questions/serial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="228" column="4" lean-forward="true" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
-          <folding>
-            <element signature="e#25#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -224,10 +210,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/questions/serial.py">
+    <entry file="file://$PROJECT_DIR$/audio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="458">
+          <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
